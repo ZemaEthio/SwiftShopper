@@ -1,0 +1,30 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, $primary-color, darken($primary-color, 10%));
+  padding: 5rem 0;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+#searchSuggestions {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#filterForm {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
